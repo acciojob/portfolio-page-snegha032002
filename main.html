@@ -3,10 +3,85 @@
 <html>
 
 <head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            background-color: #282c34;
+            color: white;
+        }
+        img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-top: 20px;
+        }
+        section {
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 10px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #e4e4e4;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        a {
+            color: #61dafb;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+	<header>
+        <img src="https://i.pinimg.com/736x/ec/61/a6/ec61a68e0c2226c7c84b4a3316016d72.jpg" alt="My Photo">
+        <h1>Sneha</h1>
+        <p><a href="https://www.linkedin.com/" target="_blank">LinkedIn Profile</a></p>
+    </header>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Here are some of the skills I bring to the table:</p>
+        <ul>
+            <li>Web Development</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Portfolio Website</li>
+            <li>Weather App</li>
+            <li>Task Manager</li>
+            <li>E-commerce Website</li>
+        </ul>
+    </section>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
